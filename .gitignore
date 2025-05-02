@@ -1,0 +1,40 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Log, output, and data files
+*.log
+*.csv
+*.json
+*.evtx
+logs/                # ✅ Exclude all files in the logs directory
+
+# Key pairs and credentials
+*.pem
+*.key
+*.crt
+*.cer
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# Terraform-related
+.terraform/
+*.tfstate
+*.tfstate.backup
+terraform.tfvars
+
+# Backup/temp files
+*~
+*.bak
+
